@@ -57,9 +57,64 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <AndroidResource Remove="NovaPasta1\**" />
+	  <AndroidResource Remove="NovaPasta2\**" />
+	  <AndroidResource Remove="NovaPasta3\**" />
+	  <AndroidResource Remove="NovaPasta\**" />
+	  <Compile Remove="NovaPasta1\**" />
+	  <Compile Remove="NovaPasta2\**" />
+	  <Compile Remove="NovaPasta3\**" />
+	  <Compile Remove="NovaPasta\**" />
+	  <EmbeddedResource Remove="NovaPasta1\**" />
+	  <EmbeddedResource Remove="NovaPasta2\**" />
+	  <EmbeddedResource Remove="NovaPasta3\**" />
+	  <EmbeddedResource Remove="NovaPasta\**" />
+	  <MauiCss Remove="NovaPasta1\**" />
+	  <MauiCss Remove="NovaPasta2\**" />
+	  <MauiCss Remove="NovaPasta3\**" />
+	  <MauiCss Remove="NovaPasta\**" />
+	  <MauiXaml Remove="NovaPasta1\**" />
+	  <MauiXaml Remove="NovaPasta2\**" />
+	  <MauiXaml Remove="NovaPasta3\**" />
+	  <MauiXaml Remove="NovaPasta\**" />
+	  <None Remove="NovaPasta1\**" />
+	  <None Remove="NovaPasta2\**" />
+	  <None Remove="NovaPasta3\**" />
+	  <None Remove="NovaPasta\**" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EditorConfigFiles Remove="C:\Users\Matheus porto\Desktop\CURSO\Dev_Projetos\MauiAppHotel2\MauiAppHotel2\NovaPasta\.editorconfig" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EditorConfigFiles Remove="C:\Users\Matheus porto\Desktop\CURSO\Dev_Projetos\MauiAppHotel2\MauiAppHotel2\NovaPasta\.editorconfig" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EditorConfigFiles Remove="C:\Users\Matheus porto\Desktop\CURSO\Dev_Projetos\MauiAppHotel2\MauiAppHotel2\NovaPasta\.editorconfig" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EditorConfigFiles Remove="C:\Users\Matheus porto\Desktop\CURSO\Dev_Projetos\MauiAppHotel2\MauiAppHotel2\NovaPasta\.editorconfig" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Views\ContrataçãodaHospedagem.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\HospedagemContartada.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\Sobre.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 </Project>
